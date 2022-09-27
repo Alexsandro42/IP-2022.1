@@ -16,7 +16,7 @@ int main(){
 
         den+=2;
     }
-
+    
     printf("E = %.2f", E);
 
     return 0;
