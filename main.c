@@ -10,16 +10,16 @@ int main()
 
     setlocale ( LC_ALL, "portuguese" );
 
-    printf ( "Programa: Demonstração de vetores!\n");
+    printf ( "Programa: DemonstraÃ§Ã£o de vetores!\n");
 
     printf ( "ENTRADA DE DADOS:\n" );
     for ( int i = 0; i < TAM_VET; i++ )
     {
-        printf ( "Digite o %iº valor: ", i + 1 );
+        printf ( "Digite o %iÂº valor: ", i + 1 );
         scanf  ( "%i", &dados[i] );
     }
 
-    printf ( "SAÍDA DE DADOS:\n" );
+    printf ( "SAÃDA DE DADOS:\n" );
     for ( int i = 0; i < TAM_VET; i++ )
     {
         printf ( "Dados[%i] = %i.\n", i, dados[i] );
